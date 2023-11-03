@@ -165,7 +165,7 @@ export default function Home() {
         {posts.map((post, index) => (
           <div key={index}>
             <p>User Address: {post.user}</p>
-            <p>Text: {post.content}</p>
+            <p>Textt: {post.content}</p>
             <p>Tag: {post.tag}</p>
           </div>
         ))}
